@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Learn2Sort
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Try it live on heroku!](https://learn2sort.herokuapp.com/)
 
-## Available Scripts
+### The Why
+This app is designed to be a clean, easy to follow resource for learning to write sorting algorithms in Python. I built this app for my Project 4 of the Web Development Immersive at General Assembly Seattle (WDI-16, 11/27/2017 - 02/23/2018). I was tired of looking at at the cluttered, overwhelming sorting web pages that I came across while studying these algorithms. Additionally, I enjoy writing alorithms and will never turn down an excuse to write one (or many) up!
 
-In the project directory, you can run:
+### Technologies and Inspiration
+  * This front-end-only project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). 
+  * Navigation bar and grid layout from [React-Bootstrap](https://github.com/facebookincubator/create-react-app).
+  * Embeded python interpreters from [Repl.it](https://repl.it).
+  * Font is [Righteous](https://fonts.google.com/specimen/Righteous) from Google Fonts.
+  * Used [HTML Color Codes](https://html-color-codes.info/colors-from-image/) and a screenshot of repl.it to find hex code for the dark repl blue.
+  * Dancing sort videos by [AlgoRythmics](https://www.youtube.com/channel/UCIqiLefbVHsOAXDAxQJH7Xw).
+  * Referenced this [codepen](https://codepen.io/mattgreenberg/pen/ggOpOr?editors=0010) for best way to get flash-card effect on hints.
+  * Color sort on home page by [w0rthy](https://www.youtube.com/channel/UCiXjgnIzKxv-93LJ9OrLU_g).
 
-### `npm start`
+### Further Work To Be Done
+  * Add several more sorts!
+  * Get a UX Designer's feedback and refine styles.
+  * Add Big O quiz.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Home Page
+![Home Page](./src/img/Home_Page.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Example Page
+![Example Sort Page](./src/img/Bubble_Sort.png)
